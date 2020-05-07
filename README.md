@@ -8,11 +8,14 @@ This repo targets to ASK & PROVIDE most commonly and repititively used methods i
 Data Science activities.
 
 We often practice these two elemenents in our daily jobs:-
+
 **R** : Read, Research & some time Reach-out to others
+
 **I** : Implement, Improvise or Innovate 
 
 let's bring in another element which puts our minds to Peace when it comes to re-development 
 of scripts from scratch for every project/PoC.
+
 **P** : Promote Collaboration, Practice sharing, Peer-to-Peer reviews and most importantly 
         Provide faster results to clients.
 
