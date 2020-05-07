@@ -1,7 +1,27 @@
 ML tech Stack
 ==============================
+In the Spirit of the quote :
+> “*Interdependence is greater than independence*” 
+>    –Stephen Covey, in “The 7 Habits of Highly Effective People”
 
-Data Science Workflow
+This repo targets to ASK & PROVIDE most commonly and repititively used methods in day to day
+Data Science activities.
+
+We often practice these two elemenents in our daily jobs:-
+**R** : Read, Research & some time Reach-out to others
+**I** : Implement, Improvise or Innovate 
+
+let's bring in another element which puts our minds to Peace when it comes to re-development 
+of scripts from scratch for every project/PoC.
+**P** : Promote Collaboration, Practice sharing, Peer-to-Peer reviews and most importantly 
+        Provide faster results to clients.
+
+Data Science Workflow:
+This repo is built upon cookiecutter data-science template and can be installed as any other 
+python package.
+
+Repo contents:
+coming soon!!!
 
 Project Organization
 ------------
