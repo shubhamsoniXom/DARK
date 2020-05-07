@@ -7,9 +7,9 @@ In the Spirit of the quote :
 This repo targets to ASK & PROVIDE most commonly and repititively used methods in day to day
 Data Science activities.
 
-We often practice these two elemenents in our daily jobs:-
+We often practice these two elements in our daily job:-
 
-**R** : Read, Research & some time Reach-out to others
+**R** : Read, Research & some times Reach-out to others
 
 **I** : Implement, Improvise or Innovate 
 
@@ -19,9 +19,15 @@ of scripts from scratch for every project/PoC.
 **P** : Promote Collaboration, Practice sharing, Peer-to-Peer reviews and most importantly 
         Provide faster results to clients.
 
-Data Science Workflow:
+Summary:
+
 This repo is built upon cookiecutter data-science template and can be installed as any other 
-python package.
+python package. The repo aims to cover best practices and variety of methods for each step
+in Data Science work flow.
+
+Typical DS workflow:
+
+Data Collection > Data Preparation > Exploratory Data analysis > Modeling > Testing > Deployment
 
 Repo contents:
 coming soon!!!
