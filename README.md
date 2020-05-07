@@ -1,3 +1,6 @@
+![Data Science & Optimization](https://mysite.na.xom.com/personal/upstreamaccts_shusoni/Documents/Shared%20with%20Everyone/logo.png)
+
+
 ML tech Stack
 ==============================
 In the Spirit of the quote :
