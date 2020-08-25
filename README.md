@@ -32,7 +32,21 @@ Typical DS workflow:
 Data Collection > Data Preparation > Exploratory Data analysis > Modeling > Testing > Deployment
 
 Repo contents:
-coming soon!!!
+
+**Tableau:** 
+
+    1.  Run python code in Tableau - Refer to python_in_tableau notebook.
+        
+        
+**Data Extraction Utilities:**
+
+    1. Extract various formats of Dates from string using Regex - <notebook name>
+    2. Extract tables from pdf using various python packages
+    3. Download data (excel or pickle files) from Azure blob storage using python
+    
+    
+
+more good stuff coming soon!!!
 
 Project Organization
 ------------
