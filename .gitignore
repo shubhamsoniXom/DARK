@@ -19,9 +19,12 @@ lib64/
 parts/
 sdist/
 var/
+catboost_info/
+mlruns/
 *.egg-info/
 .installed.cfg
 *.egg
+*.cfg
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -77,6 +80,13 @@ target/
 
 # exclude data from source control by default
 /data/
+/Lib/
+/Scripts/
+/images/
+/Include/
+/etc/
+/share/
+/xgboost/
 
 # Mac OS-specific storage files
 .DS_Store
