@@ -40,9 +40,32 @@ Repo contents:
         
 **Data Extraction Utilities:**
 
-    1. Extract various formats of Dates from string using Regex - <notebook name>
-    2. Extract tables from pdf using various python packages
-    3. Download data (excel or pickle files) from Azure blob storage using python
+    1. Extract various formats of Dates from string using Regex - Extract_Dates_using_Regex.ipynb
+    2. Extract tables from pdf using various python packages - todo
+    3. Download data (excel or pickle files) from Azure blob storage using python - todo
+
+**Dash Application Development Example**
+
+    1. Wine classification example (Used in Knowledge sharing session by Sharad)
+        To run this demo app, download this repo to your local navigate to ml_tech_stack (home) folder
+        and after installing all required packages (do this in a virtual environment), from your terminal
+        run <python app\app_wshp_final.py> this should launch an application on your localhost; you should see
+        following output in your terminal 
+        <Dash is running on http://127.0.0.1:8050/
+
+        Warning: This is a development server. Do not use app.run_server
+        in production, use a production WSGI server like gunicorn instead.
+
+        * Serving Flask app "app_wshp_final" (lazy loading)
+        * Environment: production
+        WARNING: This is a development server. Do not use it in a production deployment.
+        Use a production WSGI server instead.
+        * Debug mode: on>
+
+        to access the application click on the above http url which opens up in you default browser.
+        contact Sharad or Shubham if you face any issues while running this.
+
+
     
     
 
