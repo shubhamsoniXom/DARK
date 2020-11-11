@@ -107,7 +107,8 @@ if advance_setup:
                 'rare_level_threshold' : rare_level_threshold,
                 'remove_multicollinearity' : remove_multicollinearity,
                 'multicollinearity_threshold' : multicollinearity_threshold,
-                'bin_numeric_features' : list(selected_bin_feats) #['Carat Weight']
+                'bin_numeric_features' : list(selected_bin_feats), #['Carat Weight']
+                'use_gpu': st.checkbox('Use GPU')
                 }
 else:
     setup_dict = {'data': train_data,
@@ -121,7 +122,8 @@ else:
              'rare_level_threshold' : 0.1,
              'remove_multicollinearity' : False,
              'multicollinearity_threshold' : 0.9,
-             'bin_numeric_features' : None #['Carat Weight']
+             'bin_numeric_features' : None,   #['Carat Weight']
+             'use_gpu': st.checkbox('Use GPU')
              }
 
 model_library = model_library_()
@@ -177,7 +179,7 @@ if modeling_trial=='Create base model':
                     run_setup(**setup_dict)
                 st.success('Setup completed succesfully.')
                 with st.spinner('Training models...'):
-                    bestmodels = compare_model_fn(whitelist=model_to_build_)
+                    bestmodels = compare_model_fn(include=model_to_build_)
                 results = pr.pull()
                 modellist = results.Model.tolist()
                 st.text('Training results: average measures from 10-fold CV')

@@ -98,8 +98,8 @@ def run_setup(**kwargs):
     pr.setup(**kwargs, silent = True, verbose=False)
 
 @st.cache(allow_output_mutation=True)
-def compare_model_fn(whitelist=None):
-    bestmodels = pr.compare_models(whitelist=whitelist, verbose=False)
+def compare_model_fn(include=None):
+    bestmodels = pr.compare_models(include=include, verbose=False)
     return bestmodels
 
 @st.cache(allow_output_mutation=True)
@@ -121,4 +121,4 @@ def interpret_model_fn(modellist=None,bestmodels=None, plottype='residuals',feat
             clf = bestmodels[modellist.index(showplot)]
         else:
             clf = bestmodels
-        return pr.plot_model(clf, plot=plottype, verbose=False)
+        return pr.plot_model(clf, scale=2, plot=plottype, verbose=False)
